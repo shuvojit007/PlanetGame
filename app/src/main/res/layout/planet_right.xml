@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <RelativeLayout
+            android:id="@+id/planet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true">
+
+
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp">
+
+
+
+                <ImageView
+                    android:id="@+id/planetimg"
+
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+
+                    android:src="@drawable/planet1"
+                    android:transitionName="simple_activity_transition"
+                    tools:ignore="UnusedAttribute" />
+
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/planetname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Challenge"
+                        android:textColor="@color/colorPrimaryDark"    android:textSize="16sp" />
+
+                    <!--<RatingBar-->
+                        <!--android:id="@+id/planet_rating"-->
+                        <!--style="?android:attr/ratingBarStyleSmall"-->
+                        <!--android:layout_width="80dp"-->
+                        <!--android:layout_height="20dp"-->
+                        <!--android:layout_marginTop="5dp"-->
+                        <!--android:numStars="5"-->
+                        <!--android:rating="5"-->
+                        <!--android:stepSize="0.5"-->
+                        <!--android:theme="@style/RatingBar"-->
+                        <!--android:visibility="gone" />-->
+
+                    <!--<ImageView-->
+                        <!--android:id="@+id/planetlock"-->
+                        <!--android:layout_width="20dp"-->
+                        <!--android:layout_height="20dp"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:layout_marginTop="5dp"-->
+                        <!--android:scaleType="fitXY"-->
+                        <!--android:src="@drawable/lock"-->
+                        <!--android:visibility="gone" />-->
+
+
+
+                    <!--<ImageView-->
+                        <!--android:id="@+id/planetcompleted"-->
+                        <!--android:layout_width="25dp"-->
+                        <!--android:layout_height="25dp"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:layout_marginTop="5dp"-->
+                        <!--android:scaleType="fitXY"-->
+                        <!--android:src="@drawable/completed"-->
+                        <!--android:visibility="gone" />-->
+
+                    <!--<ImageView-->
+                        <!--android:id="@+id/planetopen"-->
+                        <!--android:layout_width="25dp"-->
+                        <!--android:layout_height="25dp"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:layout_marginTop="5dp"-->
+                        <!--android:scaleType="fitXY"-->
+                        <!--android:src="@drawable/open"-->
+                        <!--android:visibility="gone" />-->
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+       </RelativeLayout>
+
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:visibility="gone" />
+</LinearLayout>
+
+
+
+
+
